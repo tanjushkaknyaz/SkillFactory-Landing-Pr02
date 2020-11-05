@@ -1,0 +1,165 @@
+/*Основное*/
+
+body{
+    margin: 0;
+    background-color: #ffffff;
+    font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+}
+
+body *{
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1250px;
+}
+
+.orange{
+    color: #E3B873;
+}
+
+/*Шапка сайта*/
+
+.header{
+    background-color: #000000;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.logo{
+    color: #E3B873;
+    width: 180px;
+    font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+}
+
+.button{
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-style: italic;
+    width: 161px;
+    height: 37px;
+    font-size: 11px;
+}
+
+.phone{
+    font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    width: 126px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #E3B873;
+    margin-right: 45px;
+}
+
+.header-navigation{
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation__item{
+    margin-right: 47px;
+}
+
+.header-navigation__item a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+/*Основной контент*/
+
+.hero{
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+    text-align: left;
+}
+
+.hero-overlay{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+ }
+
+.hero-content{
+    position: relative;
+    z-index: 1;
+    height: 305px;
+    width: 676px;
+    margin-left: 134px;
+}
+
+.title{
+    margin: 0;
+    font-family: Yeseva One, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 676px;
+    height: 105px;
+}
+ 
+.hero-text{
+    width: 504px;
+    height: 103px;
+    margin-top: 14px;
+    margin-bottom: 38px;
+    font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.hero-text p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+[class*="hero-button"]{
+    height: 51px;
+    width: 207px;
+    margin-right: 20px;
+}
+
+.hero-button__transparent{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    padding: 0;
+}
