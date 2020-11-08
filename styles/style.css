@@ -147,10 +147,6 @@ body *{
     color: #FFFFFF;
 }
 
-.hero-text p{
-    margin-bottom: 0;
-    margin-top: 0;
-}
 
 [class*="hero-button"]{
     height: 51px;
