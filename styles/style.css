@@ -340,6 +340,9 @@ body *{
 }
 
 @media (max-width:1300px){
+    .section02{
+        height: 750px;
+    }
     .section02-imageblock, .section02-textblock__choose{
         display: none;
     }
@@ -506,6 +509,12 @@ body *{
     line-height: 21px;
     color: rgba(54, 54, 54, 0.5);
   }
+
+  .button-input__mob{
+      height: 51px;
+      width: 340px;
+      margin-top: 62px;
+  }
   /*Checkbox*/
 
 .label {
@@ -537,10 +546,21 @@ body *{
   }
 
   @media (max-width:1300px){
+      .section03{
+          margin-top:0;
+          background-color: black;
+          height: 910px;
+      }
+      .section03-video__border{
+          margin-top: 70px;
+      }
     .section03-headline{
         font-size: 22px;
         line-height: 138.6%;
+        margin-top: 0;
     }
+
+
     .video{
         display: none;
     }
@@ -580,6 +600,7 @@ body *{
     .section03-text{
         font-size: 11px;
         line-height: 169.8%;
+        color: white;
        
     }
 
@@ -590,16 +611,29 @@ body *{
     .section03-input__item{
         width: 340px;
         margin-bottom: 63px;
-        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+        border-bottom: 1px solid white;
+        
       }
 
       .section03-input input{
         line-height: 19.42px;
-        color: white;
+        background-color: black;
     
       }
       ::-webkit-input-placeholder { 
         color: white;
+      }
+
+      .button-input{
+          display: none;
+      }
+
+      .input-name{
+          color: rgba(255, 255, 255, 0.5);
+      }
+
+      .label{
+          color: white;
       }
   }
 
@@ -609,6 +643,10 @@ body *{
     }
 
     .polygon__mob{
+        display: none;
+    }
+
+    .button-input__mob{
         display: none;
     }
   }
