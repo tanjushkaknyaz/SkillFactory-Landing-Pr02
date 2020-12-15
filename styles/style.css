@@ -1062,12 +1062,10 @@ input{
 .section07{
     height: 1000px;
     position: relative;
+    background: url(../img/section07/section07-overlay.jpg);
+    background-size: contain;
 }
-.section07-overlay{
-    bottom: 0;
-    z-index: -1;
-    display: flex;
-}
+
 .section07-overlay img{
     width: 33%;
 }
@@ -1228,6 +1226,7 @@ input{
     line-height: 28px;
     text-transform: uppercase;
     color: #E3B873;
+    margin-top: 0;
 }
 .section08-buttons{
     display: flex;
